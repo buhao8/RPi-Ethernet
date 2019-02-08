@@ -5,7 +5,7 @@ This script gives you an SSH connection to your Raspberry Pi by grabbing the ip 
 # Setup
 To use, you must configure for the wired network "Shared to other computers" under "Method" in the IPv4 tab of the NetworkManager GUI.
 
-For those running Ubuntu 18.04LTS, you must run
+For those who cannot find the wired network option in their network settings, try
 
 `nm-connection-editor`
 

@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-if [[ $(ip addr) !=  *"10.42."* ]]; then
+if [[ "$(ip addr)" !=  *"10.42."* ]]; then
 	echo "You have not set up the 'Shared to other computers' option in the Network Manager GUI."
 	echo "If you have unplugged your PI, you may also receive this message."
 	exit
